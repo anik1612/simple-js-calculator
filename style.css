@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    background: #fbfbfb;
+    text-align: center;
+}
+
+.calc {
+    position: relative;
+    top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 0 rgba(125, 125, 125, 0.5);
+}
+
+.display, button{
+    height: 100px;
+    border: 1px solid #535052;
+    text-align: center;
+    box-sizing: border-box;
+    user-select: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.special-code {
+    background: #676566;
+    color: #fff;
+}
+
+.display {
+    grid-column: 1 / 5;
+    text-align: right;
+    padding-right: 40px;
+    font-size: 80px;
+    padding-top: 0px;
+    background: #535052;
+    color: #fff;
+    border: 1px solid #535052;
+    user-select: auto;
+    cursor: text;
+}
+
+.ops {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.ops button{
+    background: linear-gradient(to bottom, #FD8D0E 1%, #FD8D0E 100%);
+}
+
+.nums {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1 / 4;   
+}
+
+.nums button{
+    background: #7C7A7B;
+}
+
+.num-0 {
+    grid-column: 1 / 3;
+}
+
