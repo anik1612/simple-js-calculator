@@ -4,11 +4,13 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     background: #fbfbfb;
     text-align: center;
+    margin: 0;
+    background-color: #131616;
 }
 
 .calc {
     position: relative;
-    top: 80px;
+    top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 400px;
@@ -76,4 +78,16 @@ body {
 
 .opBtn:hover{
     background: #7C7A7B;
+}
+
+footer{
+    background-color: rgb(14, 17, 16);
+    height: 65px;
+}
+
+footer p{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: green;
+    margin-top: 100px;
+    padding-top: 18px;
 }
