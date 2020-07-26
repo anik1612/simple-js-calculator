@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Vanilla JS Calculator - Anik Sarker</title>
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="calc">
+        <div class="display"> 0 </div>
+        <div class="nums">
+            <button class="btn ac special-code" id="clear"> AC </button>
+            <button class="btn plus-minus special-code" id="backspace">&#8592;</button>
+            <button class="btn percent special-code" id="percent"> &#37; </button>
+            <button class="btn num-7" id="seven">7</button>
+            <button class="btn num-8" id="eight"> 8 </button>
+            <button class="btn num-9" id="nine"> 9 </button>
+            <button class="btn num-4" id="four"> 4 </button>
+            <button class="btn num-5" id="five"> 5 </button>
+            <button class="btn num-6" id="six"> 6 </button>
+            <button class="btn num-1" id="one"> 1 </button>
+            <button class="btn num-2" id="two"> 2 </button>
+            <button class="btn num-3" id="three"> 3 </button>
+            <button class="btn num-0" id="zero"> 0 </button>
+            <button class="btn num-dot" id="dot">.</button>
+        </div>
+        <div class="ops">
+            <button class="opBtn op-1" id="division"> &#247; </button>
+            <button class="opBtn op-2" id="multiply"> &#215; </button>
+            <button class="opBtn op-3" id="minus"> – </button>
+            <button class="opBtn op-4" id="plus"> + </button>
+            <button class="opBtn op-5" id="equal"> = </button>
+        </div>
+    </div>
+
+    <footer>
+        <p>All right reserved by Anik Sarker || &#169; 2020</p>
+    </footer>
+
     
+    <script src="app.js"></script>
 </body>
+
 </html>
